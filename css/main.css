@@ -262,7 +262,7 @@ textarea {
 }
 
 * {
-  border: 1px solid red;
+  border: 1px solid black;
 
 }
 
@@ -274,11 +274,15 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   }
 
   .search {
+    display: flex;
         height: 20px;
-        align-items: botto;
+        justify-content: center;
+
+
   }
 
   .lower-header {
